@@ -9,8 +9,8 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', htmlParser, (req, res) => {
-    let { userName, userFeed } = req.body;
-    dp.insertFeed(userName, userFeed);
+    let { userName, userFeed, userMark } = req.body;
+    dp.insertFeed(userName, userFeed, userMark);
     res.redirect("/feeds");
 });
 
