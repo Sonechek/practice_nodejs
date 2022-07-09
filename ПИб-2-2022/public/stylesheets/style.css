@@ -57,12 +57,12 @@ body {
 .footer {
     flex: 0 0 auto;
     height: 40px;
-    background: #378D3B;
+    background: #ffffff;
     display: flex;
 }
 .footer-text {
     margin: auto;
-    color: #96d198;
+    color: #008cff;
 }
 h4 {
     color: #70C6B9;
