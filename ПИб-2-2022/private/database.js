@@ -6,7 +6,7 @@ class DataProcessing {
         let query = `
             SELECT userName, userFeed, userMark
             FROM feeds
-            ORDER BY idFeed DESC`;
+            ORDER BY userMark DESC`;
         let rows = db.prepare(query).all();
         return rows;
     }
