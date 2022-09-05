@@ -18,12 +18,8 @@ for(let i = 1; i < arr.length; i++){
     return arr
 }
 ```
-1000 time: 37.544ms
-2000 time: 68.099ms
-4000 time: 129.985ms
-8000 time: 302.052ms
-16000 time: 763.735ms
-32000 time: 1621.715ms
-64000 time: 3918.293ms
-128000 time: 10161.740ms
-256000 time: 33191.122ms
+1000 time: 2000 time:  4000 time:  8000 time:  16000 time:  32000 time:  64000 time:  128000 time:   256000 time:
+
+
+37.544ms 68.099ms   129.985ms  302.052ms  763.735ms  1621.715ms  3918.293ms  10161.740ms  33191.122ms
+
