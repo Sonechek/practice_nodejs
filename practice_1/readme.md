@@ -3,23 +3,23 @@
 который добавляет рандомное число в конец массива.
 Далее начинает работать функция сортировки, цикл for обращается ко второму числу из массива, это число присваивается j и проверяется через цикл while с предыдущим числом, если j больше 0 и j-1-ый элемент массива больше числа tmp в которой содержится i-ый элемент массива, то в j-ый элемент массива записывается j-1-ый элемент массива. После чего из j вычитается единица, чтобы перейти к следующему элементу и в j-ый элемент массива записывается tmp, цикл закрывается и программа переходит к следующему числу внешнего цикла for.  
 
-
+'''js
 function sorting_array(number) {
-	let arr = []
-	for ( i = 0; i < number; i++ ) {
-		arr.push(Math.round( Math.random() * 100 )) 
+    let arr = []
+    for ( i = 0; i < number; i++ ) {
+        arr.push(Math.round( Math.random() * 100 ))
     }
-	сonsole.table(arr) 
+   console.table(arr) 
 
 for(let i = 1; i < arr.length; i++){
-		let j = i
-		const tmp = arr[i]
-		while(j > 0 && arr[j - 1] > tmp){
-			arr[j] = arr[j-1]
-			j--
-		}
-		arr[j] = tmp
-		}
-		return arr
-		}
-
+    let j = i
+    const tmp = arr[i]
+    while(j > 0 && arr[j - 1] > tmp){
+        arr[j] = arr[j-1]
+        j--
+    }
+    arr[j] = tmp
+    }
+    return arr
+}
+'''
