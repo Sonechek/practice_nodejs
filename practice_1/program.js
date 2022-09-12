@@ -1,7 +1,7 @@
 const { sorting_array, new_array } = require('./module')
 
-
+arr = new_array(256000)
 console.time('time')
-console.table(sorting_array(new_array(10)))
+sorting_array(arr)
 console.timeEnd('time')
 
