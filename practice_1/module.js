@@ -3,7 +3,7 @@ function new_array(number){
     for ( i = 0; i < number; i++ ) {
         arr.push(Math.round( Math.random() * 100 ))
     }
-   console.table(arr)
+   
    return arr
 }
 function sorting_array(arr) {
