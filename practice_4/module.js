@@ -2,7 +2,9 @@ const _ = require('lodash')
 
 let colors = require('./json/colors.json')
 let data = require('./json/data.js')
-const {argb} = require("./json/data");
+const {argb} = require("./json/data")
+const users = require('./json/users.json')
+const clients = require('./json/clients.json')
 
 function sortByLengthAndName(){
    _(colors)
@@ -39,12 +41,34 @@ console.log(
 }
 
 function south_ball(){
-    _
-}
+    console.log(
+    _(users)
+        .filter(user => user.address.geo.lat <0)
+        .map (user => {
+            return {
+                username: user.username,
+                city: user.address.city
+            }
 
+        }
+        )
+        .orderBy(['city'], ['desc'])
+        .value()
+    )
+}
+function Kungur_clients(){
+    console.log(
+        _(clients.clients)
+            .filter(user => user.address.city === 'Кунгур')
+            .orderBy(['gender','age','name'], ['asc','desc','asc'])
+            .value()
+    )
+}
 
 module.exports = {
    sortByLengthAndName,
    new_array_in_object,
-   two_arrays_in_array
+   two_arrays_in_array,
+    south_ball,
+    Kungur_clients
 }
