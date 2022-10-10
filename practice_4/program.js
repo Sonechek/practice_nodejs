@@ -4,4 +4,4 @@ sortByLengthAndName()
 new_array_in_object()
 two_arrays_in_array()
 south_ball()
-Kungur_clients
+Kungur_clients()
