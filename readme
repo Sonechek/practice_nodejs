@@ -2,6 +2,4 @@
 Practice nodejs
 A.Shipulin
 
-<div id="header" align="center">
-<img src=https://tenor.com/view/javascript-undefined-is-not-a-function-web-dev-star-trek-panic-gif-15706305" width="100"/>
-</div>
+img src="./myScreen.gif" alt="My Project GIF" width="500" height="600"
