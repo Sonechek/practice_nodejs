@@ -1,0 +1,13 @@
+
+{
+  "author": "Ilon Mask",
+  "version": "1.0.3",
+  "types_of_files": "csv,json",
+  "request_formats": {
+    "/": "API",
+    "/type": "найти все файлы по указанному расширению, например, /json",
+    "/type/filename.type": "получить список объектов из указанного файла, например, /json/users.json",
+    "/type/filename.type/?field=direct": "получить список объектов из указанного файла с сортировкой по указанным полям, например, /json/abiturs.csv/?rating=desc&name=asc",
+    "/type/filename.type/?field1&field2&field3/?field2=direct2&field3=direct3": "получить список объектов из указанного файла, оставив в них только указанные поля, с сортировкой по указанным полям, например, /json/abiturs.csv/?id&group&rating&name/?rating=desc&name=asc"
+  }
+}
