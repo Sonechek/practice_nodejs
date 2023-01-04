@@ -15,7 +15,7 @@ let select_case = (args, response) => {
                 let files =  get_files_filter('./timefall', args[1])
 
                 response.write(files.join('\n'))
-                console.log(files)
+                // console.log(files)
                 break;
             case 3: // http://localhost:3000/json/users.json
 
@@ -30,8 +30,28 @@ let select_case = (args, response) => {
                 // отсортировать их по указанным в request направлениям - ${args[3]}\n`);
 
                 let wd_sort = new WorkData(`./timefall/${args[1]}/${args[2]}`);
-                console.log(args[3])
+                // console.log(args[3])
+                let temp = args[3]
+                    .toString()
+                    .slice(1)
+                    .split('&')
+                // console.log(temp)
+                let t = 0
+                let fields = ''
+                let directs = ''
+                while (t < temp.length){
+                    fields += '"' + temp[t].split('=')[0]+'"' + " "
+                    directs += '"' + temp[t].split('=')[1]+'"' + ' '
+
+                    t++
+                }
+
+                fields = fields.replace(' ', ', ')
+                directs = directs.replace(' ', ', ')
+                console.log(fields)
+                console.log(directs)
                 // wd_sort.orderBy(fields, directs)
+
                 response.write(JSON.stringify(wd_sort.json, null, 4));
                 break;
             default:
@@ -48,8 +68,8 @@ let select_case = (args, response) => {
 let callback = (request, response) => {
     let args = request.url.split('/');
     response.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    console.log(args.length); // это просто для контроля вывода - убрать после отладки
-    console.log(args); // это просто для контроля вывода - убрать после отладки
+    // console.log(args.length); // это просто для контроля вывода - убрать после отладки
+    // console.log(args); // это просто для контроля вывода - убрать после отладки
     if (args[args.length-1] === '') args.pop(); // убираем пустой последний элемент
     select_case(args, response);
 }

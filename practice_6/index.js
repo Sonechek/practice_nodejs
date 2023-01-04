@@ -4,5 +4,5 @@ abiturs_json = require("./json/abiturs.json")
 clients = require("./json/clients.json")
 users = require("./json/users.json")
 
-// sorting(clients)
-DeepClone(clients)
+sorting(clients)
+// DeepClone(clients)
