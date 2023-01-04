@@ -1,5 +1,5 @@
 const http = require("http");
-const { about, get_files_filter } = require('./module');
+const { about, get_files_filter,comparator } = require('./module');
 let { WorkData } = require('./library');
 
 const server = http.createServer();
@@ -11,46 +11,40 @@ let select_case = (args, response) => {
             case 1: // http://localhost:3000
                 about(response);
                 break;
+
             case 2: // http://localhost:3000/json или http://localhost:3000/csv
                 let files =  get_files_filter('./timefall', args[1])
-
                 response.write(files.join('\n'))
-                // console.log(files)
                 break;
-            case 3: // http://localhost:3000/json/users.json
 
-                // тут вернуть клиенту содержимое указанного
-                // в request файла args[2] в виде json-строки
+            case 3: // http://localhost:3000/json/users.json
                 let wd = new WorkData(`./timefall/${args[1]}/${args[2]}`);
                 response.write(JSON.stringify(wd.json, null, 4));
                 break;
-            case 4: // http://localhost:3000/json/users.json/?rating=desc&name=asc
-                // тут использовать разработанный ранее класс
-                // с помощью которого выбрать из файла ${args[2]} данные и
-                // отсортировать их по указанным в request направлениям - ${args[3]}\n`);
 
+            case 4: // http://localhost:3000/json/users.json/?rating=desc&name=asc
                 let wd_sort = new WorkData(`./timefall/${args[1]}/${args[2]}`);
-                // console.log(args[3])
                 let temp = args[3]
                     .toString()
                     .slice(1)
                     .split('&')
-                // console.log(temp)
+
                 let t = 0
                 let fields = ''
                 let directs = ''
-                while (t < temp.length){
-                    fields += '"' + temp[t].split('=')[0]+'"' + " "
-                    directs += '"' + temp[t].split('=')[1]+'"' + ' '
 
+                while (t < temp.length){
+                    fields += temp[t].split('=')[0] + " "
+                    directs += temp[t].split('=')[1]+ " "
                     t++
                 }
 
-                fields = fields.replace(' ', ', ')
-                directs = directs.replace(' ', ', ')
+                fields = fields.slice(0, -1).split(" ")
+                directs = directs.slice(0, -1).split(" ")
+
                 console.log(fields)
                 console.log(directs)
-                // wd_sort.orderBy(fields, directs)
+                console.log(wd_sort.orderBy(fields,directs))
 
                 response.write(JSON.stringify(wd_sort.json, null, 4));
                 break;
@@ -68,9 +62,7 @@ let select_case = (args, response) => {
 let callback = (request, response) => {
     let args = request.url.split('/');
     response.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    // console.log(args.length); // это просто для контроля вывода - убрать после отладки
-    // console.log(args); // это просто для контроля вывода - убрать после отладки
-    if (args[args.length-1] === '') args.pop(); // убираем пустой последний элемент
+    if (args[args.length-1] === '') args.pop();
     select_case(args, response);
 }
 

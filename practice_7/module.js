@@ -24,8 +24,17 @@ const get_files_filter = (dir, ext) => {
     rec(dir);
     return name_files;
 }
+comparator = (a, b, fs, ds) => {
+    if ((fs.length > 1) && (a[fs[0]] === b[fs[0]])) {
+        return comparator(a, b, fs.slice(1,), ds.slice(1,));
+    }
+    let d = {'asc': +1, 'desc': -1};
+    return d[ds[0]] * (a[fs[0]] > b[fs[0]] ? +1 : -1);
+}
+
 
 module.exports = {
     about,
-    get_files_filter
+    get_files_filter,
+    comparator
 }
