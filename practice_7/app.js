@@ -1,10 +1,10 @@
-const http = require("http");
-const { about, get_files_filter} = require('./module');
-let { WorkData } = require('./library');
+const http = require("http")
+const { about, get_files_filter} = require('./module')
+let { WorkData } = require('./library')
 
 
-const server = http.createServer();
-const port = 3000;
+const server = http.createServer()
+const port = 3000
 
 let select_case = (args, response) => {
     try {
@@ -20,6 +20,7 @@ let select_case = (args, response) => {
 
             case 3: // http://localhost:3000/json/users.json
                 let wd = new WorkData(`./timefall/${args[1]}/${args[2]}`);
+
                 console.log(wd)
                 response.write(JSON.stringify(wd.json, null, 4));
                 break;
@@ -54,6 +55,7 @@ let select_case = (args, response) => {
                 response.write(JSON.stringify(wd_sort.json, null, 4));
                 break;
             default:
+                console.log(404)
                 response.statusCode = 404;
                 response.write('Запрос ошибочный...');
                 break;
