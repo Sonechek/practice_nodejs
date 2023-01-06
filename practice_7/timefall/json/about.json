@@ -1,8 +1,8 @@
 
 {
-  "author": "Ilon Mask",
-  "version": "1.0.3",
-  "types_of_files": "csv,json",
+  "author": "Alexander Shipulin",
+  "version": "0.5.8",
+  "types_of_files": "csv, json",
   "request_formats": {
     "/": "API",
     "/type": "найти все файлы по указанному расширению, например, /json",

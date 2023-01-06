@@ -1,5 +1,5 @@
 const about = (res) => {
-    let about = require('./about.json');
+    let about = require('./timefall/json/about.json');
     res.write(JSON.stringify(about, null, 4));
 }
 

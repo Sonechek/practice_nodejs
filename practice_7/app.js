@@ -1,6 +1,7 @@
 const http = require("http");
-const { about, get_files_filter,comparator } = require('./module');
+const { about, get_files_filter} = require('./module');
 let { WorkData } = require('./library');
+
 
 const server = http.createServer();
 const port = 3000;
@@ -19,6 +20,7 @@ let select_case = (args, response) => {
 
             case 3: // http://localhost:3000/json/users.json
                 let wd = new WorkData(`./timefall/${args[1]}/${args[2]}`);
+                console.log(wd)
                 response.write(JSON.stringify(wd.json, null, 4));
                 break;
 
@@ -39,12 +41,15 @@ let select_case = (args, response) => {
                     t++
                 }
 
-                fields = fields.slice(0, -1).split(" ")
-                directs = directs.slice(0, -1).split(" ")
+                fields = fields
+                    .slice(0, -1)
+                    .split(" ")
+                directs = directs
+                    .slice(0, -1)
+                    .split(" ")
 
                 console.log(fields)
                 console.log(directs)
-                console.log(wd_sort.orderBy(fields,directs))
 
                 response.write(JSON.stringify(wd_sort.json, null, 4));
                 break;
