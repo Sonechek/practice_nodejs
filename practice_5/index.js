@@ -57,9 +57,9 @@ let ex_06 = () => {
 
 let file_name = "./csv/students.csv";
 let obj = new WorkCSV(file_name);
-// ex_01();
+ex_01();
 // ex_02();
-ex_03();
+// ex_03();
 // ex_04();
 // ex_05();
 // ex_06();

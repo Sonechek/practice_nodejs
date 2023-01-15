@@ -43,8 +43,6 @@ const cloneDeep = (obj) => {
     return result;
 }
 
-
-
 module.exports = {
     about,
     get_files_filter,

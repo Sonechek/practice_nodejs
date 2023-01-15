@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "csvjson": "^5.1.0",
+    "csvtojson": "^2.0.10",
     "fast-csv": "^4.3.6",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21"

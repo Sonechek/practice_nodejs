@@ -1,8 +1,7 @@
 const http = require("http")
 const { about, get_files_filter, cloneDeep} = require('./module')
 let { WorkData } = require('./library')
-
-
+let { WorkCSV } = require('./library')
 
 const server = http.createServer()
 const port = 3000
@@ -20,13 +19,19 @@ let select_case = (args, response) => {
                 break
 
             case 3: // http://localhost:3000/json/users.json
-                let wd = new WorkData(`./timefall/${args[1]}/${args[2]}`)
-                console.log(wd)
-                response.write(JSON.stringify(wd.json, null, 4))
+                const path = (`./timefall/${args[1]}/${args[2]}`)
+                if (args[1] === 'csv'){
+                    let wc = new WorkCSV(path)
+                    response.write(JSON.stringify(wc._json, null, 4))
+                }
+                else {
+                    let wd = new WorkData(path)
+                    response.write(JSON.stringify(wd._json, null, 4))
+                }
                 break
 
             case 4: // http://localhost:3000/json/users.json/?rating=desc&name=asc
-                let wd_sort = new WorkData(`./timefall/${args[1]}/${args[2]}`)
+                const path_1 = (`./timefall/${args[1]}/${args[2]}`)
                 let temp = args[3]
                     .toString()
                     .slice(1)
@@ -48,13 +53,19 @@ let select_case = (args, response) => {
                 directs = directs
                     .slice(0, -1)
                     .split(" ")
-                let tempo_sort = cloneDeep(wd_sort)
-                // console.log(tempo_sort)
-                wd_sort.orderBy(fields,directs)
-                response.write(JSON.stringify(wd_sort.json, null, 4))
+
+                if (args[1] === 'csv'){
+                    let wc_sort = new WorkCSV(path_1)
+                    wc_sort.orderBy(fields,directs)
+                    response.write(JSON.stringify(wc_sort._json, null, 4))
+                }
+                else{
+                    let wj_sort = new WorkData(path_1)
+                    wj_sort.orderBy(fields,directs)
+                    response.write(JSON.stringify(wj_sort._json, null, 4))
+                }
                 break
             default:
-                console.log('404')
                 response.statusCode = 404
                 response.write('Запрос ошибочный...')
                 break
