@@ -12,7 +12,7 @@ class WorkCSV {
         this._tmp = this.restore();
     }
     restore() {
-        this._tmp = this._.clone(this._json);
+        this._tmp = this._.clone(this._json)
     }
     csv_to_json(nameFile, del=',') {
         let textCSV = this.fs.readFileSync(nameFile, 'utf-8');

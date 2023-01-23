@@ -3,13 +3,13 @@ const { WorkCSV } = require("./library");
 let ex_01 = () => {
     console.log(obj._json);
 
-    obj.restore();
+    // obj.restore();
     obj.select("nameSt","age","idGr");
-    obj.where("age",17);
-    obj.orderBy(["idGr","nameSt"],["asc","asc"]);
-
+    // obj.where("age",17);
+    // obj.orderBy(["idGr","nameSt"],["asc","asc"]);
+    //
     console.log(obj._tmp);
-    obj.json_to_csv(obj._tmp, "./csv/results.csv");
+    // obj.json_to_csv(obj._tmp, "./csv/results.csv");
 }
 
 let ex_02 = () => {
