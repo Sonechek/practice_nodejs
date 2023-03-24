@@ -14,12 +14,16 @@ const get_data = () => {
     let results = [];
     links
         .each((i, elm) => {
-            let obj = {
-                "id": i+1,
-                "title": $(elm).text(),
-                "href": $(elm).attr('href')
-            };
-            results.push(obj);
+            if (elm.attribs.href.includes('.pdf')) {
+                let obj = {
+                    "id": i+1,
+                    "title": $(elm).text(),
+                    "href": $(elm).attr('href')
+                };
+                results.push(obj)
+            }
+
+
         });
     return results;
 }
