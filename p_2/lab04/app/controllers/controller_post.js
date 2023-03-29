@@ -2,7 +2,7 @@ const render_data = (req, res) => {
     let d = req.body.direct;
     if (d < 0) d = 0;
     let f = req.body.field
-    let { model } = require('../models/model_get.js');
+    let { model } = require('../models/model_post.js');
     if (f < 0) f = 0
 
     let field = f == 0? 'id': 'title'; // поле для сортировки
