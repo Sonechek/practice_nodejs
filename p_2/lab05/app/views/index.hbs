@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+</head>
+<body>
+    <center>
+    <h3>Документы отсортированы по полю: {{field}}</h3>
+    <form method="post" action="sorted">
+        <table class="select">
+        <tr>
+            <td class="list-td">
+                <select class="select-count" name="count">
+                    <option value="-1">Выберите количество для отображения</option>
+                    <option value="0">Все</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                </select>
+            </td>
+            <td class="list-td">
+                <select class="select-direct" name="direct">
+                    <option value="-1">Выберите направление сортировки</option>
+                    <option value="0">По возрастанию</option>
+                    <option value="1">По убыванию</option>
+                </select>
+            </td>
+            <td class="list-td">
+                <select class="select-field" name="field">
+                    <option value="-1">Выберите поле сортировки</option>
+                    <option value="0">Номер</option>
+                    <option value="1">Название</option>
+                </select>
+            </td>
+            <td class="list-td">
+                <button class="send">Отсортировать</button>
+            </td>
+        </tr>
+        </table>
+    </form>
+
+    <table class="list">
+        <tr>
+            <th>№</th>
+            <th>Pic</th>
+            <th>Команда</th>
+            <th>Игры</th>
+        </tr>
+        <!-- это цикл по массиву объектов -->
+        {{#each arr}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.pic}}</td>
+                <td>{{this.title}}</td>
+                <td>{{this.games}}</td>
+
+            </tr>
+        {{/each}}
+    </table>
+    </center>
+</body>
+<html>
