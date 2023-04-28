@@ -253,31 +253,31 @@
     },
     {
         "id": 37,
-        "title": "Team Group GX2 T253X2256G0C101",
-        "href": "https://n-katalog.ru/product/team-group-t253x2256g0c101",
-        "priceDown": "1699",
-        "priceUp": ""
-    },
-    {
-        "id": 38,
         "title": "AMD Radeon R5 2021 R5SL512G",
         "href": "https://n-katalog.ru/product/amd-r5sl512g",
         "priceDown": "1845",
         "priceUp": "3399"
     },
     {
-        "id": 39,
+        "id": 38,
         "title": "Crucial MX500 CT250MX500SSD1",
         "href": "https://n-katalog.ru/product/crucial-ct250mx500ssd1",
         "priceDown": "2260",
         "priceUp": "3090"
     },
     {
-        "id": 40,
+        "id": 39,
         "title": "Hikvision C100 HS-SSD-C100/960G",
         "href": "https://n-katalog.ru/product/hikvision-hs-ssd-c100960g",
         "priceDown": "3070",
         "priceUp": "4790"
+    },
+    {
+        "id": 40,
+        "title": "Team Group GX2 T253X2256G0C101",
+        "href": "https://n-katalog.ru/product/team-group-t253x2256g0c101",
+        "priceDown": "1699",
+        "priceUp": ""
     },
     {
         "id": 41,
@@ -337,16 +337,16 @@
     },
     {
         "id": 49,
-        "title": "Crucial BX500 CT240BX500SSD1",
-        "href": "https://n-katalog.ru/product/crucial-ct240bx500ssd1",
-        "priceDown": "1680",
-        "priceUp": "2530"
-    },
-    {
-        "id": 50,
         "title": "Geil Zenith Z3 GZ25Z3-1TBP",
         "href": "https://n-katalog.ru/product/geil-gz25z3-1tbp",
         "priceDown": "3720",
         "priceUp": ""
+    },
+    {
+        "id": 50,
+        "title": "Crucial BX500 CT240BX500SSD1",
+        "href": "https://n-katalog.ru/product/crucial-ct240bx500ssd1",
+        "priceDown": "1680",
+        "priceUp": "2530"
     }
 ]
