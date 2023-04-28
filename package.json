@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "csvjson": "^5.1.0",
     "csvtojson": "^2.0.10",
