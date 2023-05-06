@@ -3,350 +3,400 @@
         "id": 1,
         "title": "Kingston A400 SA400S37/240G",
         "href": "https://n-katalog.ru/product/kingston-sa400s37240g",
-        "priceDown": "1565",
-        "priceUp": "2298"
+        "priceDown": "1470",
+        "priceUp": "4469",
+        "capacity": 240
     },
     {
         "id": 2,
         "title": "WD Blue SA510 WDS500G3B0A",
         "href": "https://n-katalog.ru/product/wd-wds500g3b0a",
         "priceDown": "3490",
-        "priceUp": "6391"
+        "priceUp": "6391",
+        "capacity": 500
     },
     {
         "id": 3,
-        "title": "Kingston A400 SA400S37/480G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37480g",
-        "priceDown": "2180",
-        "priceUp": "3375"
+        "title": "Kingston A400 SA400S37/960G",
+        "href": "https://n-katalog.ru/product/kingston-sa400s37960g",
+        "priceDown": "3980",
+        "priceUp": "6398",
+        "capacity": 960
     },
     {
         "id": 4,
-        "title": "Kingston A400 SA400S37/960G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37960g",
-        "priceDown": "4240",
-        "priceUp": "6811"
+        "title": "Kingston A400 SA400S37/480G",
+        "href": "https://n-katalog.ru/product/kingston-sa400s37480g",
+        "priceDown": "2140",
+        "priceUp": "6569",
+        "capacity": 480
     },
     {
         "id": 5,
         "title": "MSI SPATIUM S270 SATA 2.5\" S78-440N070-P83",
         "href": "https://n-katalog.ru/product/msi-s78-440n070-p83",
         "priceDown": "1320",
-        "priceUp": "1799"
+        "priceUp": 0,
+        "capacity": 0
     },
     {
         "id": 6,
-        "title": "WD Blue SA510 WDS100T3B0A",
-        "href": "https://n-katalog.ru/product/wd-wds100t3b0a",
-        "priceDown": "7999",
-        "priceUp": ""
+        "title": "KingSpec P3 P3-512",
+        "href": "https://n-katalog.ru/product/kingspec-p3-512",
+        "priceDown": "1751",
+        "priceUp": "2400",
+        "capacity": 512
     },
     {
         "id": 7,
-        "title": "KingSpec P3 P3-512",
-        "href": "https://n-katalog.ru/product/kingspec-p3-512",
-        "priceDown": "1870",
-        "priceUp": "2821"
+        "title": "Kingston A400 SA400S37/1920G",
+        "href": "https://n-katalog.ru/product/kingston-sa400s371920g",
+        "priceDown": "22459",
+        "priceUp": 0,
+        "capacity": 2048
     },
     {
         "id": 8,
         "title": "Gigabyte SSD GP-GSTFS31480GNTD",
         "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31480gntd",
         "priceDown": "2180",
-        "priceUp": "3599"
+        "priceUp": "2190",
+        "capacity": 480
     },
     {
         "id": 9,
         "title": "Kingston A400 SA400S37/120G",
         "href": "https://n-katalog.ru/product/kingston-sa400s37120g",
-        "priceDown": "1198",
-        "priceUp": "3491"
+        "priceDown": "1165",
+        "priceUp": "3369",
+        "capacity": 120
     },
     {
         "id": 10,
-        "title": "WD Blue SA510 WDS250G3B0A",
-        "href": "https://n-katalog.ru/product/wd-wds250g3b0a",
-        "priceDown": "1480",
-        "priceUp": "3299"
+        "title": "Gigabyte SSD GP-GSTFS31120GNTD",
+        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31120gntd",
+        "priceDown": "1030",
+        "priceUp": "1550",
+        "capacity": 120
     },
     {
         "id": 11,
-        "title": "WD Green SSD New WDS100T3G0A",
-        "href": "https://n-katalog.ru/product/wd-wds100t3g0a",
-        "priceDown": "4540",
-        "priceUp": "6499"
+        "title": "WD Blue SA510 WDS250G3B0A",
+        "href": "https://n-katalog.ru/product/wd-wds250g3b0a",
+        "priceDown": "1480",
+        "priceUp": "2998",
+        "capacity": 250
     },
     {
         "id": 12,
-        "title": "WD Green SSD New WDS480G3G0A",
-        "href": "https://n-katalog.ru/product/wd-wds480g3g0a",
-        "priceDown": "1945",
-        "priceUp": "3199"
+        "title": "WD Green SSD New WDS100T3G0A",
+        "href": "https://n-katalog.ru/product/wd-wds100t3g0a",
+        "priceDown": "4340",
+        "priceUp": "6498",
+        "capacity": 1024
     },
     {
         "id": 13,
-        "title": "KingSpec P3 P3-256",
-        "href": "https://n-katalog.ru/product/kingspec-p3-256",
-        "priceDown": "1140",
-        "priceUp": "1682"
+        "title": "WD Green SSD New WDS480G3G0A",
+        "href": "https://n-katalog.ru/product/wd-wds480g3g0a",
+        "priceDown": "1890",
+        "priceUp": "2687",
+        "capacity": 480
     },
     {
         "id": 14,
-        "title": "Apacer Panther AS350 AP512GAS350-1",
-        "href": "https://n-katalog.ru/product/apacer-ap512gas350-1",
-        "priceDown": "1940",
-        "priceUp": "2789"
+        "title": "KingSpec P3 P3-256",
+        "href": "https://n-katalog.ru/product/kingspec-p3-256",
+        "priceDown": "1081",
+        "priceUp": "1500",
+        "capacity": 256
     },
     {
         "id": 15,
         "title": "KingSpec P3 P3-1TB",
         "href": "https://n-katalog.ru/product/kingspec-p3-1tb",
-        "priceDown": "3430",
-        "priceUp": "4748"
+        "priceDown": "3590",
+        "priceUp": "7570",
+        "capacity": 1024
     },
     {
         "id": 16,
-        "title": "Gigabyte SSD GP-GSTFS31240GNTD",
-        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31240gntd",
-        "priceDown": "1350",
-        "priceUp": "2288"
+        "title": "Apacer Panther AS350 AP512GAS350-1",
+        "href": "https://n-katalog.ru/product/apacer-ap512gas350-1",
+        "priceDown": "1840",
+        "priceUp": "2659",
+        "capacity": 512
     },
     {
         "id": 17,
-        "title": "Patriot Memory P210 P210S1TB25",
-        "href": "https://n-katalog.ru/product/patriot-memory-p210s1tb25",
-        "priceDown": "3739",
-        "priceUp": "5399"
+        "title": "Kingston DC450R SEDC450R/1920G",
+        "href": "https://n-katalog.ru/product/kingston-sedc450r1920g",
+        "priceDown": "16870",
+        "priceUp": "27449",
+        "capacity": 2048
     },
     {
         "id": 18,
-        "title": "Patriot Memory P210 P210S512G25",
-        "href": "https://n-katalog.ru/product/patriot-memory-p210s512g25",
-        "priceDown": "2099",
-        "priceUp": "3199"
+        "title": "Gigabyte SSD GP-GSTFS31240GNTD",
+        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31240gntd",
+        "priceDown": "1400",
+        "priceUp": "4149",
+        "capacity": 240
     },
     {
         "id": 19,
-        "title": "Kingston KC600 SKC600/512G",
-        "href": "https://n-katalog.ru/product/kingston-skc600512g",
-        "priceDown": "4400",
-        "priceUp": "5728"
+        "title": "Patriot Memory P210 P210S1TB25",
+        "href": "https://n-katalog.ru/product/patriot-memory-p210s1tb25",
+        "priceDown": "3806",
+        "priceUp": "4463",
+        "capacity": 1024
     },
     {
         "id": 20,
-        "title": "Kingston KC600 SKC600/1024G",
-        "href": "https://n-katalog.ru/product/kingston-skc6001024g",
-        "priceDown": "7820",
-        "priceUp": "10420"
+        "title": "Kingston KC600 SKC600/512G",
+        "href": "https://n-katalog.ru/product/kingston-skc600512g",
+        "priceDown": "4230",
+        "priceUp": "8670",
+        "capacity": 512
     },
     {
         "id": 21,
-        "title": "AMD Radeon R5 R5SL480G",
-        "href": "https://n-katalog.ru/product/amd-r5sl480g",
-        "priceDown": "2050",
-        "priceUp": "2976"
+        "title": "Patriot Memory P210 P210S512G25",
+        "href": "https://n-katalog.ru/product/patriot-memory-p210s512g25",
+        "priceDown": "2245",
+        "priceUp": 0,
+        "capacity": 512
     },
     {
         "id": 22,
-        "title": "Patriot Memory P210 P210S2TB25",
-        "href": "https://n-katalog.ru/product/patriot-memory-p210s2tb25",
-        "priceDown": "8433",
-        "priceUp": "9999"
+        "title": "Kingston KC600 SKC600/1024G",
+        "href": "https://n-katalog.ru/product/kingston-skc6001024g",
+        "priceDown": "7900",
+        "priceUp": "10160",
+        "capacity": 1024
     },
     {
         "id": 23,
-        "title": "AMD Radeon R5 R5SL960G",
-        "href": "https://n-katalog.ru/product/amd-r5sl960g",
-        "priceDown": "3950",
-        "priceUp": "4699"
+        "title": "AMD Radeon R5 R5SL480G",
+        "href": "https://n-katalog.ru/product/amd-r5sl480g",
+        "priceDown": "2090",
+        "priceUp": "2860",
+        "capacity": 480
     },
     {
         "id": 24,
-        "title": "WD Green SSD New WDS240G3G0A",
-        "href": "https://n-katalog.ru/product/wd-wds240g3g0a",
-        "priceDown": "1490",
-        "priceUp": "2550"
+        "title": "Patriot Memory P210 P210S2TB25",
+        "href": "https://n-katalog.ru/product/patriot-memory-p210s2tb25",
+        "priceDown": "7302",
+        "priceUp": "7942",
+        "capacity": 2048
     },
     {
         "id": 25,
-        "title": "Netac N600S NT01N600S-001T-S3X",
-        "href": "https://n-katalog.ru/product/netac-nt01n600s-001t-s3x",
-        "priceDown": "3644",
-        "priceUp": "5033"
+        "title": "WD Green SSD New WDS240G3G0A",
+        "href": "https://n-katalog.ru/product/wd-wds240g3g0a",
+        "priceDown": "1205",
+        "priceUp": "2398",
+        "capacity": 240
     },
     {
         "id": 26,
-        "title": "Gigabyte SSD GP-GSTFS31256GTND",
-        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31256gtnd",
-        "priceDown": "1990",
-        "priceUp": "2240"
+        "title": "AMD Radeon R5 R5SL960G",
+        "href": "https://n-katalog.ru/product/amd-r5sl960g",
+        "priceDown": "3950",
+        "priceUp": "8849",
+        "capacity": 960
     },
     {
         "id": 27,
-        "title": "A-Data Ultimate SU650 ASU650SS-512GT-R",
-        "href": "https://n-katalog.ru/product/a-data-asu650ss-512gt-r",
-        "priceDown": "2990",
-        "priceUp": ""
+        "title": "Gigabyte SSD GP-GSTFS31256GTND",
+        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31256gtnd",
+        "priceDown": "1798",
+        "priceUp": "4149",
+        "capacity": 256
     },
     {
         "id": 28,
-        "title": "A-Data Ultimate SU650 ASU650SS-240GT-C",
-        "href": "https://n-katalog.ru/product/a-data-asu650ss-240gt-c",
-        "priceDown": "1314",
-        "priceUp": "1590"
+        "title": "A-Data Ultimate SU650 ASU650SS-512GT-R",
+        "href": "https://n-katalog.ru/product/a-data-asu650ss-512gt-r",
+        "priceDown": "2590",
+        "priceUp": 0,
+        "capacity": 512
     },
     {
         "id": 29,
-        "title": "A-Data Ultimate SU650 ASU650SS-256GT-R",
-        "href": "https://n-katalog.ru/product/a-data-asu650ss-256gt-r",
-        "priceDown": "1690",
-        "priceUp": "1840"
+        "title": "Netac N600S NT01N600S-001T-S3X",
+        "href": "https://n-katalog.ru/product/netac-nt01n600s-001t-s3x",
+        "priceDown": "3520",
+        "priceUp": "4894",
+        "capacity": 1024
     },
     {
         "id": 30,
-        "title": "Netac N535S NT01N535S-960G-S3X",
-        "href": "https://n-katalog.ru/product/netac-nt01n535s-960g-s3x",
-        "priceDown": "3500",
-        "priceUp": "5499"
+        "title": "A-Data Ultimate SU650 ASU650SS-240GT-C",
+        "href": "https://n-katalog.ru/product/a-data-asu650ss-240gt-c",
+        "priceDown": "1490",
+        "priceUp": 0,
+        "capacity": 240
     },
     {
         "id": 31,
-        "title": "Netac N600S NT01N600S-256G-S3X",
-        "href": "https://n-katalog.ru/product/netac-nt01n600s-256g-s3x",
-        "priceDown": "1220",
-        "priceUp": "1777"
+        "title": "A-Data Ultimate SU650 ASU650SS-256GT-R",
+        "href": "https://n-katalog.ru/product/a-data-asu650ss-256gt-r",
+        "priceDown": "1690",
+        "priceUp": 0,
+        "capacity": 256
     },
     {
         "id": 32,
-        "title": "A-Data Ultimate SU650 ASU650SS-960GT-C",
-        "href": "https://n-katalog.ru/product/a-data-asu650ss-960gt-c",
-        "priceDown": "4890",
-        "priceUp": ""
+        "title": "Netac N600S NT01N600S-256G-S3X",
+        "href": "https://n-katalog.ru/product/netac-nt01n600s-256g-s3x",
+        "priceDown": "1170",
+        "priceUp": "4089",
+        "capacity": 256
     },
     {
         "id": 33,
-        "title": "Crucial MX500 CT500MX500SSD1",
-        "href": "https://n-katalog.ru/product/crucial-ct500mx500ssd1",
-        "priceDown": "3510",
-        "priceUp": "4599"
+        "title": "Netac N535S NT01N535S-960G-S3X",
+        "href": "https://n-katalog.ru/product/netac-nt01n535s-960g-s3x",
+        "priceDown": "3310",
+        "priceUp": "8370",
+        "capacity": 960
     },
     {
         "id": 34,
-        "title": "Netac N535S NT01N535S-480G-S3X",
-        "href": "https://n-katalog.ru/product/netac-nt01n535s-480g-s3x",
-        "priceDown": "1840",
-        "priceUp": "3099"
+        "title": "A-Data Ultimate SU650 ASU650SS-960GT-C",
+        "href": "https://n-katalog.ru/product/a-data-asu650ss-960gt-c",
+        "priceDown": "4490",
+        "priceUp": 0,
+        "capacity": 960
     },
     {
         "id": 35,
-        "title": "Netac N600S NT01N600S-512G-S3X",
-        "href": "https://n-katalog.ru/product/netac-nt01n600s-512g-s3x",
-        "priceDown": "2041",
-        "priceUp": "2950"
+        "title": "Netac N535S NT01N535S-480G-S3X",
+        "href": "https://n-katalog.ru/product/netac-nt01n535s-480g-s3x",
+        "priceDown": "1865",
+        "priceUp": "6769",
+        "capacity": 480
     },
     {
         "id": 36,
-        "title": "Intel D3-S4510 SSDSC2KB480G801",
-        "href": "https://n-katalog.ru/product/intel-ssdsc2kb480g801",
-        "priceDown": "9310",
-        "priceUp": "11492"
+        "title": "AMD Radeon R5 2021 R5SL512G",
+        "href": "https://n-katalog.ru/product/amd-r5sl512g",
+        "priceDown": "1820",
+        "priceUp": "6749",
+        "capacity": 512
     },
     {
         "id": 37,
-        "title": "AMD Radeon R5 2021 R5SL512G",
-        "href": "https://n-katalog.ru/product/amd-r5sl512g",
-        "priceDown": "1845",
-        "priceUp": "3399"
+        "title": "Crucial MX500 CT500MX500SSD1",
+        "href": "https://n-katalog.ru/product/crucial-ct500mx500ssd1",
+        "priceDown": "3600",
+        "priceUp": "4140",
+        "capacity": 500
     },
     {
         "id": 38,
-        "title": "Crucial MX500 CT250MX500SSD1",
-        "href": "https://n-katalog.ru/product/crucial-ct250mx500ssd1",
-        "priceDown": "2260",
-        "priceUp": "3090"
+        "title": "Intel D3-S4510 SSDSC2KB480G801",
+        "href": "https://n-katalog.ru/product/intel-ssdsc2kb480g801",
+        "priceDown": "8870",
+        "priceUp": "10990",
+        "capacity": 480
     },
     {
         "id": 39,
-        "title": "Hikvision C100 HS-SSD-C100/960G",
-        "href": "https://n-katalog.ru/product/hikvision-hs-ssd-c100960g",
-        "priceDown": "3070",
-        "priceUp": "4790"
+        "title": "Netac N600S NT01N600S-512G-S3X",
+        "href": "https://n-katalog.ru/product/netac-nt01n600s-512g-s3x",
+        "priceDown": "2041",
+        "priceUp": "7569",
+        "capacity": 512
     },
     {
         "id": 40,
-        "title": "Team Group GX2 T253X2256G0C101",
-        "href": "https://n-katalog.ru/product/team-group-t253x2256g0c101",
-        "priceDown": "1699",
-        "priceUp": ""
+        "title": "Hikvision C100 HS-SSD-C100/960G",
+        "href": "https://n-katalog.ru/product/hikvision-hs-ssd-c100960g",
+        "priceDown": "2980",
+        "priceUp": "8470",
+        "capacity": 960
     },
     {
         "id": 41,
         "title": "Transcend SSD230S TS256GSSD230S",
         "href": "https://n-katalog.ru/product/transcend-ts256gssd230s",
-        "priceDown": "2470",
-        "priceUp": "3070"
+        "priceDown": "2490",
+        "priceUp": "3000",
+        "capacity": 256
     },
     {
         "id": 42,
-        "title": "Crucial BX500 CT1000BX500SSD1",
-        "href": "https://n-katalog.ru/product/crucial-ct1000bx500ssd1",
-        "priceDown": "5895",
-        "priceUp": "9500"
+        "title": "Crucial MX500 CT250MX500SSD1",
+        "href": "https://n-katalog.ru/product/crucial-ct250mx500ssd1",
+        "priceDown": "2150",
+        "priceUp": "2856",
+        "capacity": 250
     },
     {
         "id": 43,
-        "title": "AMD Radeon R5 2021 R5SL1024G",
-        "href": "https://n-katalog.ru/product/amd-r5sl1024g",
-        "priceDown": "3742",
-        "priceUp": ""
+        "title": "Apacer Panther AS350 AP1TBAS350-1",
+        "href": "https://n-katalog.ru/product/apacer-ap1tbas350-1",
+        "priceDown": "3340",
+        "priceUp": "4422",
+        "capacity": 1024
     },
     {
         "id": 44,
-        "title": "KingSpec P4 P4-480",
-        "href": "https://n-katalog.ru/product/kingspec-p4-480",
-        "priceDown": "1790",
-        "priceUp": "2170"
+        "title": "Samsung PM883 MZ7LH480HAHQ",
+        "href": "https://n-katalog.ru/product/samsung-mz7lh480hahq",
+        "priceDown": "6670",
+        "priceUp": "7125",
+        "capacity": 480
     },
     {
         "id": 45,
-        "title": "A-Data Ultimate SU650 ASU650SS-480GT-C",
-        "href": "https://n-katalog.ru/product/a-data-asu650ss-480gt-c",
-        "priceDown": "2690",
-        "priceUp": ""
+        "title": "AMD Radeon R5 2021 R5SL1024G",
+        "href": "https://n-katalog.ru/product/amd-r5sl1024g",
+        "priceDown": "3742",
+        "priceUp": 0,
+        "capacity": 1024
     },
     {
         "id": 46,
-        "title": "Team Group GX2 T253X2512G0C101",
-        "href": "https://n-katalog.ru/product/team-group-t253x2512g0c101",
-        "priceDown": "1930",
-        "priceUp": "2999"
+        "title": "Silicon Power Ace A56 SP512GBSS3A56A25",
+        "href": "https://n-katalog.ru/product/silicon-power-sp512gbss3a56a25",
+        "priceDown": "2030",
+        "priceUp": "3080",
+        "capacity": 512
     },
     {
         "id": 47,
-        "title": "Apacer Panther AS350 AP1TBAS350-1",
-        "href": "https://n-katalog.ru/product/apacer-ap1tbas350-1",
-        "priceDown": "3455",
-        "priceUp": "4398"
+        "title": "Crucial BX500 CT1000BX500SSD1",
+        "href": "https://n-katalog.ru/product/crucial-ct1000bx500ssd1",
+        "priceDown": "4280",
+        "priceUp": "11259",
+        "capacity": 1024
     },
     {
         "id": 48,
-        "title": "Patriot Memory P210 P210S256G25",
-        "href": "https://n-katalog.ru/product/patriot-memory-p210s256g25",
-        "priceDown": "1750",
-        "priceUp": ""
+        "title": "KingSpec P4 P4-480",
+        "href": "https://n-katalog.ru/product/kingspec-p4-480",
+        "priceDown": "1726",
+        "priceUp": "2060",
+        "capacity": 480
     },
     {
         "id": 49,
-        "title": "Geil Zenith Z3 GZ25Z3-1TBP",
-        "href": "https://n-katalog.ru/product/geil-gz25z3-1tbp",
-        "priceDown": "3720",
-        "priceUp": ""
+        "title": "Silicon Power Ace A56 SP001TBSS3A56A25",
+        "href": "https://n-katalog.ru/product/silicon-power-sp001tbss3a56a25",
+        "priceDown": "4560",
+        "priceUp": "5625",
+        "capacity": 1024
     },
     {
         "id": 50,
-        "title": "Crucial BX500 CT240BX500SSD1",
-        "href": "https://n-katalog.ru/product/crucial-ct240bx500ssd1",
-        "priceDown": "1680",
-        "priceUp": "2530"
+        "title": "Apacer Panther AS350 AP256GAS350-1",
+        "href": "https://n-katalog.ru/product/apacer-ap256gas350-1",
+        "priceDown": "1145",
+        "priceUp": "1850",
+        "capacity": 256
     }
 ]
