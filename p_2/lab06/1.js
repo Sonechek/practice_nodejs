@@ -7,14 +7,14 @@ const parse = async () => {
         return cheerio.load(data)
     }
     const $ = await getHTML('https://n-katalog.ru/category/ssd-nakopiteli/list?sort=Popular&filterid=48f8bd39')
-    const pageNumber = 5
+    const pageNumber = 1
     let limit = 0
     fs.truncateSync('./result.json')
     for (let i = 1; i <= pageNumber; i++){
         const selector = await getHTML(
             `https://n-katalog.ru/category/ssd-nakopiteli/list?page=${i}&sort=Popular&filterid=48f8bd39`
         )
-
+        let result = []
         selector('.model-short-block').each((i, element) => {
             const title = selector(element).find('span.u').text()
             const href = selector(element)
@@ -43,7 +43,7 @@ const parse = async () => {
                 capacity = capacity * 1024
             }
 
-            let result = []
+
 
             let obj = {
                 "id": limit + 1,
@@ -56,13 +56,10 @@ const parse = async () => {
             }
             limit++
             result.push(obj);
-            // console.log(result)
-            fs.appendFileSync('./result.json', JSON.stringify(result,null, 4)+','+'\n' )
-            fs.writeFileSync('result.json',fs.readFileSync('result.json', 'utf8').replaceAll('\n' +
-                '],\n' +
-                '[', ','))
-        })
+            return result
 
+        })
+    fs.writeFileSync('./result.json', JSON.stringify(result, null, 4))
 
     }
 }
