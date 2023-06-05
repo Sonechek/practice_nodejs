@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Автомобили</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+<!--    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />-->
+    <!--
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" />
+    -->
+</head>
+<body>
+    <center>
+    <br>
+    <form>
+        <input class="txt" name="brand" type="text" placeholder="Марка" value="{{brand}}">
+        <input class="txt" name="model" type="text" placeholder="Модель" value="{{model}}">
+        <input class="txt" name="color" type="text" placeholder="Цвет" value="{{color}}">
+        <input class="txt" name="price" type="text" placeholder="Цена" value="{{price}}">
+        <input class="txt" name="odometer" type="text" placeholder="Пробег" value="{{odometer}}">
+        <input class="txt" name="pic" type="text" placeholder="Фото" value="{{pic}}">
+        <br>
+        <button class="btn1" formaction="/edit/{{id}}" formmethod="post">Сохранить изменения</button>
+        <button class="btn1" formaction="/" formmethod="get">Отменить изменения</button>
+    </form>
+    </center>
+</body>
+<html>
