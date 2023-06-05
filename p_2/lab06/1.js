@@ -6,9 +6,8 @@ const parse = async () => {
         const {data} = await axios.get(url)
         return cheerio.load(data)
     }
-    const $ = await getHTML('https://n-katalog.ru/category/ssd-nakopiteli/list?sort=Popular&filterid=48f8bd39')
-    const pageNumber = 1
-    let limit = 0
+    const pageNumber = 5
+    let id = 0
     fs.truncateSync('./result.json')
     for (let i = 1; i <= pageNumber; i++){
         const selector = await getHTML(
@@ -43,10 +42,8 @@ const parse = async () => {
                 capacity = capacity * 1024
             }
 
-
-
             let obj = {
-                "id": limit + 1,
+                "id": id + 1,
                 "title": title,
                 "href": 'https://n-katalog.ru'+href,
                 'priceDown': priceDown,
@@ -54,7 +51,7 @@ const parse = async () => {
                 'capacity': capacity
 
             }
-            limit++
+            id++
             result.push(obj);
             return result
 
@@ -65,5 +62,3 @@ const parse = async () => {
 }
 
 parse()
-
-

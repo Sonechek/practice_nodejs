@@ -1,82 +1,82 @@
 [
     {
-        "id": 1,
-        "title": "Kingston A400 SA400S37/240G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37240g",
-        "priceDown": "1470",
-        "priceUp": "4469",
-        "capacity": 240
-    },
-    {
-        "id": 2,
-        "title": "WD Blue SA510 WDS500G3B0A",
-        "href": "https://n-katalog.ru/product/wd-wds500g3b0a",
-        "priceDown": "3490",
-        "priceUp": "6391",
-        "capacity": 500
-    },
-    {
-        "id": 3,
-        "title": "Kingston A400 SA400S37/480G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37480g",
-        "priceDown": "2140",
-        "priceUp": "6569",
+        "id": 41,
+        "title": "Intel D3-S4510 SSDSC2KB480G801",
+        "href": "https://n-katalog.ru/product/intel-ssdsc2kb480g801",
+        "priceDown": "8870",
+        "priceUp": "10990",
         "capacity": 480
     },
     {
-        "id": 4,
-        "title": "Kingston A400 SA400S37/960G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37960g",
-        "priceDown": "3980",
-        "priceUp": "6298",
-        "capacity": 960
+        "id": 42,
+        "title": "KingSpec P4 P4-480",
+        "href": "https://n-katalog.ru/product/kingspec-p4-480",
+        "priceDown": "1726",
+        "priceUp": "2060",
+        "capacity": 480
     },
     {
-        "id": 5,
-        "title": "MSI SPATIUM S270 SATA 2.5\" S78-440N070-P83",
-        "href": "https://n-katalog.ru/product/msi-s78-440n070-p83",
-        "priceDown": "1320",
+        "id": 43,
+        "title": "Transcend SSD230S TS256GSSD230S",
+        "href": "https://n-katalog.ru/product/transcend-ts256gssd230s",
+        "priceDown": "2490",
+        "priceUp": "3000",
+        "capacity": 256
+    },
+    {
+        "id": 44,
+        "title": "Apacer Panther AS350 AP1TBAS350-1",
+        "href": "https://n-katalog.ru/product/apacer-ap1tbas350-1",
+        "priceDown": "3270",
+        "priceUp": "4422",
+        "capacity": 1024
+    },
+    {
+        "id": 45,
+        "title": "A-Data Ultimate SU650 ASU650SS-480GT-C",
+        "href": "https://n-katalog.ru/product/a-data-asu650ss-480gt-c",
+        "priceDown": "2356",
+        "priceUp": "2490",
+        "capacity": 480
+    },
+    {
+        "id": 46,
+        "title": "AMD Radeon R5 2021 R5SL1024G",
+        "href": "https://n-katalog.ru/product/amd-r5sl1024g",
+        "priceDown": "3742",
         "priceUp": 0,
-        "capacity": 0
+        "capacity": 1024
     },
     {
-        "id": 6,
-        "title": "Kingston A400 SA400S37/1920G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s371920g",
-        "priceDown": "22459",
-        "priceUp": 0,
-        "capacity": 2048
+        "id": 47,
+        "title": "Crucial BX500 CT1000BX500SSD1",
+        "href": "https://n-katalog.ru/product/crucial-ct1000bx500ssd1",
+        "priceDown": "4250",
+        "priceUp": "11259",
+        "capacity": 1024
     },
     {
-        "id": 7,
-        "title": "KingSpec P3 P3-512",
-        "href": "https://n-katalog.ru/product/kingspec-p3-512",
-        "priceDown": "1751",
-        "priceUp": "2400",
+        "id": 48,
+        "title": "Silicon Power Ace A56 SP512GBSS3A56A25",
+        "href": "https://n-katalog.ru/product/silicon-power-sp512gbss3a56a25",
+        "priceDown": "2050",
+        "priceUp": "3080",
         "capacity": 512
     },
     {
-        "id": 8,
-        "title": "Gigabyte SSD GP-GSTFS31480GNTD",
-        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31480gntd",
-        "priceDown": "2180",
-        "priceUp": "2190",
+        "id": 49,
+        "title": "Hikvision C100 HS-SSD-C100/480G",
+        "href": "https://n-katalog.ru/product/hikvision-hs-ssd-c100480g",
+        "priceDown": "1620",
+        "priceUp": "2490",
         "capacity": 480
     },
     {
-        "id": 9,
-        "title": "Kingston A400 SA400S37/120G",
-        "href": "https://n-katalog.ru/product/kingston-sa400s37120g",
-        "priceDown": "1140",
-        "priceUp": "3369",
-        "capacity": 120
-    },
-    {
-        "id": 10,
-        "title": "Gigabyte SSD GP-GSTFS31120GNTD",
-        "href": "https://n-katalog.ru/product/gigabyte-gp-gstfs31120gntd",
-        "priceDown": "1030",
-        "priceUp": "1550",
-        "capacity": 120
+        "id": 50,
+        "title": "Apacer Panther AS340 AP240GAS340G-1",
+        "href": "https://n-katalog.ru/product/apacer-ap240gas340g-1",
+        "priceDown": "1120",
+        "priceUp": "1670",
+        "capacity": 240
     }
 ]
